@@ -1,10 +1,10 @@
+import my_library 
+
 print("Hello")
 
 print("Hi again!!!!")
 
-
-def my_x(x):
-    return x
-
-
+x = 5
+y = my_library.my_lin_func(x)
+print(F" x = {x}  y = {y}")
 
